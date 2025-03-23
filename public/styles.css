@@ -444,6 +444,18 @@ button:hover {
 transform: translateX(0); /* ensures exact horizontal alignment */
 
       }
+
+      @media (max-width: 500px) {
+        .spread-box {
+          display: none;
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .hamburger-container {
+          display: none;
+        }
+      }
       
 
   

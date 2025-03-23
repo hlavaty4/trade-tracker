@@ -1,7 +1,7 @@
 let currentDate = new Date();
 let results = {};
 
-let isEditable = false;
+let isEditable = true;
 const ADMIN_PASSWORD = "traderlock";
 
 // 🔄 Load all results from the server
